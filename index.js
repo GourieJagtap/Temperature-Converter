@@ -16,6 +16,8 @@ fah.addEventListener('input', function(){
     let k= (Number(f)-Number(273.15))*9/5;
     kel.value=k;
 });
+
+
 kel.addEventListener('input', function(){
     let k=this.value;
     let f= (k*9/5)+32;
