@@ -40,3 +40,9 @@ label{
     font-family: 'Gill Sans','Lucida Sans';
 
 }
+@media  screen and (max-width:800px){
+    body{
+        background-color: rgb(155, 204, 188);
+        padding:30% 5%;
+    }
+}
